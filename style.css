@@ -1,0 +1,61 @@
+/* Global Set-up*/
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background:white;
+}
+/* link Styles*/
+a {
+    text-decoration: none;
+    color:rgb(231, 226, 226)
+}
+a:hover {
+    color: rgb(255, 255, 255);
+}
+/* Section Style*/
+.main-nav {
+    width: 100%;
+    background: rgb(224, 138, 138);
+    min-height: 30px;
+    padding: 10px;
+    position: fixed;
+    text-align: center;    
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+.nav .name {
+    display: block;
+    margin-right: auto;
+    color:rgb(255, 255, 255);   
+}
+.nav li {
+    padding: 5px 10px 10px 10px;
+}
+.nav a {
+    transition: all .5s;
+}
+.nav a:hover {
+    color: thistle;
+}
+header {
+    text-align: center;
+    background: url(img/background.jpeg) no-repeat top center;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 60px;
+}
+header {
+    line-height: 1.5;
+}
