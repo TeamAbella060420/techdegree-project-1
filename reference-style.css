@@ -15,7 +15,7 @@
   
   a {
     text-decoration: none;
-    color: rgb(248, 246, 246);
+    color: #999;
   }
   a:hover {
     color: #6633ff;
@@ -25,7 +25,7 @@
   
   .main-nav {
     width: 100%;
-    background: rgb(86, 83, 99);
+    background: black;
     min-height: 30px;
     padding: 10px;
     position: fixed;
@@ -43,7 +43,7 @@
   .nav .name {
       display: block;
       margin-right: auto;
-      color: rgb(245, 238, 238);
+      color: white;
   }
   .nav li {
     padding: 5px 10px 10px 10px;
@@ -52,12 +52,12 @@
     transition: all .5s;
   }
   .nav a:hover {
-    color: rgb(138, 130, 130)
+    color: white
   }
- 
+  
   header {
     text-align: center;
-    background: url('img/background.jpeg') no-repeat top center ;
+    background: url('images/portland.jpg') no-repeat top center ;
     background-size: cover;
     overflow: hidden;
     padding-top: 60px;
@@ -151,14 +151,14 @@
     opacity: .4;
     transition: all .5s;
   }
-  a.Outlook {
-    background-image: url(outlook.PNG);
+  a.twitter {
+    background-image: url(images/twitter.svg);
   }
   a.linkedin {
-    background-image: url(outlook.PNG);
+    background-image: url(images/linkedin.svg);
   }
   a.github {
-    background-image: url(github.PNG);
+    background-image: url(images/github.svg);
   }
   a.social:hover {
     opacity: 1;
