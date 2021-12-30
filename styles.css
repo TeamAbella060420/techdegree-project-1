@@ -25,7 +25,7 @@
   
   .main-nav {
     width: 100%;
-    background: rgb(18, 4, 80);
+    background: rgb(86, 83, 99);
     min-height: 30px;
     padding: 10px;
     position: fixed;
@@ -43,7 +43,7 @@
   .nav .name {
       display: block;
       margin-right: auto;
-      color: white;
+      color: rgb(245, 238, 238);
   }
   .nav li {
     padding: 5px 10px 10px 10px;
@@ -52,12 +52,12 @@
     transition: all .5s;
   }
   .nav a:hover {
-    color: white
+    color: rgb(138, 130, 130)
   }
  
   header {
     text-align: center;
-    background: url('background.jpeg') no-repeat top center ;
+    background: url('img/background.jpeg') no-repeat top center ;
     background-size: cover;
     overflow: hidden;
     padding-top: 60px;
@@ -152,13 +152,13 @@
     transition: all .5s;
   }
   a.Outlook {
-    background-image: url();
+    background-image: url(outlook.PNG);
   }
   a.linkedin {
-    background-image: url(images/linkedin.svg);
+    background-image: url(outlook.PNG);
   }
   a.github {
-    background-image: url(images/github.svg);
+    background-image: url(github.PNG);
   }
   a.social:hover {
     opacity: 1;
