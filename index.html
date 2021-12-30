@@ -5,25 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project 1</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li>Jezreel Abella</li>
-            <li>Home</li>
-            <li>Experience</li>
+    <div class="main-nav">
+        <ul class="nav">
+            <li class="name">Jezreel Abella</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Experience</a></li>
         </ul>
-    </nav>
+    </div>
+
     <header>            
-        <image src="img/2x2.jpg" alt="The seriuos me"></image>
-        <h1>What's up? I'm Jezreel.</h1>
-        <p>My home is Tuguegarao City, Philippines</p>
+        <image src="img/2x2.jpg" alt="The seriuos me" class="profile-image"></image>
+        <h1 class="tag name">What's up? I'm Jezreel.</h1>
+        <p class="tag location">My home is Tuguegarao City, Philippines</p>
     </header>
-    <main>
+
+    <main class="flex">
+        <div class="card">
         <h2>Background</h2>
+        <p> I am a very curiuos person. I am always investigating on something new and as a result, 
+            I constantly building knowledge. No matter what the situation is, I can find something interesting 
+            to explore. I like to maintain high activity levels and 
+            discover interesting facts about their industry.</p>
+        <p> I am a licensed Electrical Engineer that is not afraid to go outside the box.
+            Compelled to investigate, ask questions, experiment and learn.</p>
+        </div>
+
+        <div class="card">
         <h2>Goals</h2>
+        <p>I want to be productive and deliver value to a company as a Front-end web developer. 
+           I aim to build practical applications that will be 100% successful.
+           Therfore, I will never stop learning and be an expert with these skills:
+        </p>
+        <ul class="skills">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Git</li>
+            <li>Redux</li>
+            <li>TypeScript</li>
+            <li>Rest API</li>
+            <li>Database</li>   
+        </ul>
+        <p>I want to be part of the changing world through <strong>TECHNOLOGY</strong> for the better.</p>
+        </div>
     </main>
-    <footer></footer>
+
+    <footer>
+        <ul>
+            <li><a href="#" class="social outlook">outlook</a></li>
+            <li><a href="#" class="social github">github</a></li>
+        </ul>
+        <p class="Copyright">&copy Copyright 2021, Jezreel Abella</p>
+    </footer>
     
 </body>
 </html>
