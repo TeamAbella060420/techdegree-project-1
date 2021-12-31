@@ -98,7 +98,6 @@ header .profile-image:hover{
 .card:hover {
     border-color: rgb(78, 6, 69);
     color: rgb(65, 4, 65);
-    transform: scale(1.05);
 }
 .skills li {
     border-radius: 6px;
@@ -111,10 +110,14 @@ header .profile-image:hover{
     background: rgb(251, 255, 11);
 }
 footer {
-    width: 100px;
-    min-height: 30px;
-    padding: 20px 0 40px 20px;
+    
+    min-height: 0px;
+    padding: 0px 0px 0px 0px;
     color: midnightblue;
+    
+}
+footer p{
+    font-size: 15px;
 }
 .card h2 {
     color:midnightblue
@@ -125,18 +128,13 @@ footer {
 .location:hover {
     transform: scale(1.05);
 }
-footer .copyright {
-    top: -10px;
-    font-size: .85em;
-}
+
 footer ul {
     list-style: none;
     margin: 0;
     padding: 0;   
 }
-footer p {
-    list-style: none;
-}
+
 footer ul li {
     display: inline-block;
 }
