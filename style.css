@@ -7,8 +7,8 @@ body {
     padding: 0px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    color: black;
-    background:white;
+    color: rgb(247, 239, 239);
+    background:rgb(243, 205, 226);
 }
 /* link Styles*/
 a {
@@ -21,11 +21,12 @@ a:hover {
 /* Section Style*/
 .main-nav {
     width: 100%;
-    background: rgb(224, 138, 138);
+    background: rgb(190, 30, 129);
     min-height: 30px;
     padding: 10px;
     position: fixed;
-    text-align: center;    
+    text-align: center; 
+    border-bottom: 1px solid rgb(144, 146, 243);   
 }
 .nav {
     display: flex;
@@ -36,9 +37,10 @@ a:hover {
     padding: 0;
 }
 .nav .name {
-    display: block;
+    display: flex;
     margin-right: auto;
-    color:rgb(255, 255, 255);   
+    color:rgb(255, 255, 255); 
+
 }
 .nav li {
     padding: 5px 10px 10px 10px;
@@ -59,3 +61,145 @@ header {
 header {
     line-height: 1.5;
 }
+header .profile-image {
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid whitesmoke;
+    transition: all .5s;
+}
+header .profile-image:hover{
+    transform: scale(1.3) rotate(0deg)
+}
+.tag {
+    background-color: rgb(133, 89, 133);
+    color: rgb(240, 148, 227);
+    padding: 10px;
+    margin: 10px auto;
+    display: table;
+    border-radius: 10px ;   
+}
+.location {
+    background-color: rgb(78, 57, 78);
+    color: rgb(235, 183, 235);
+}
+.card {
+    margin: 30px;
+    padding: 20px 40px 40px;
+    max-width: 500px;
+    text-align: left;
+    background: rgb(241, 140, 211);
+    border-bottom: magenta solid 4px;
+    border-radius: 7px;
+    transition: all .5s;
+    display: table;
+}
+.card:hover {
+    border-color: rgb(78, 6, 69);
+    color: rgb(65, 4, 65);
+    transform: scale(1.05);
+}
+.skills li {
+    border-radius: 6px;
+    display: inline-block;
+    background: rgb(26, 233, 233);
+    padding: 5px 10px;
+    margin: 2px;   
+}
+.skills li:nth-child(odd) {
+    background: rgb(251, 255, 11);
+}
+footer {
+    width: 100px;
+    min-height: 30px;
+    padding: 20px 0 40px 20px;
+    color: midnightblue;
+}
+.card h2 {
+    color:midnightblue
+}
+.name:hover {
+    transform: scale(1.05);
+}
+.location:hover {
+    transform: scale(1.05);
+}
+footer .copyright {
+    top: -10px;
+    font-size: .85em;
+}
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;   
+}
+footer p {
+    list-style: none;
+}
+footer ul li {
+    display: inline-block;
+}
+a.social {
+    display: inline-block;
+    text-indent: -9999px;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+    opacity: .4s;
+    transition: all .5s;
+}
+a.outlook {
+    background-image: url(img/outlook.PNG);
+    border-radius: 50px;
+}
+a.github {
+    background-image: url(img/github.PNG);
+    border-radius: 50px;
+}
+a.social:hover {
+    opacity: 1;
+    transform: scale(1.5);
+}
+.clearfix {
+    clear: both;
+}
+/* Styles for larger screens */
+@media screen and (min-width: 720px) {
+    
+    .flex {
+        display: -ms-flexbox;      /* TWEENER - IE 10 */
+        display: flex; 
+        max-width: 1200px;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+  
+    header {
+      min-height: 470px;
+    }
+  
+    .nav {
+      max-width: 1200px;
+      padding: 0 30px;
+    }
+  
+  
+    main {
+      padding-top: 20px;
+    }
+  
+    main p {
+      line-height: 1.6em;
+    }
+  
+    footer {
+      font-size: 1.3em;
+      max-width: 1200px;
+      margin: 40px auto;
+    }
+  
+  }
+  
