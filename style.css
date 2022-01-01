@@ -245,7 +245,7 @@ section {
     border-radius: 7px;
     transition: all .5s;
     display: table;
-    font-size: 20px;
+    font-size: 18px;
 }
 section:hover {
     border-color: rgb(78, 6, 69);
@@ -266,21 +266,22 @@ a.book {
     opacity: 100%;
     transition: all .5s;
 }
-a.one {
-    background-image: url(img/book1.PNG);
-    border-radius: 3px;
-    width: 80px;
-    height: 80px;
-}
+
 a.two {
     background-image: url(img/book2.PNG);
     border-radius: 3px;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 155px;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 60px;
 }
 a.three {
     background-image: url(img/book3.PNG);
     border-radius: 3px;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 155px;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 60px;
 }
