@@ -73,13 +73,13 @@ h2:hover {
 section {
     margin: 10px;
     padding: 2px 4px 4px;
-    max-width: auto;
+    max-width: 5000px;
     text-align: left;
     background: rgb(241, 140, 211);
     border-bottom: magenta solid 4px;
     border-radius: 7px;
     transition: all .5s;
-    display: table center;
+    display: table;
     font-size: 20px;
 }
 section:hover {
@@ -102,7 +102,7 @@ a.social {
     width: 30px;
     height: 30px;
     background-size: 30px 30px;
-    opacity: .4s;
+    opacity: 50%;
     transition: all .5s;
 }
 a.outlook {
