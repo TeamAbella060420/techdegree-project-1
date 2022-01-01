@@ -26,7 +26,8 @@ a:hover {
     position: fixed;
     text-align: center; 
     border-bottom: 1px solid rgb(144, 146, 243);
-    color: beige;   
+    color: beige; 
+    font-size: 20px;  
 }
 .nav .exp-name {
     display: flex;
@@ -72,8 +73,8 @@ h2:hover {
 }
 section {
     margin: 10px;
-    padding: 2px 4px 4px;
-    max-width: 5000px;
+    padding: 10px 30px 30px;
+    max-width: 1500px;
     text-align: left;
     background: rgb(241, 140, 211);
     border-bottom: magenta solid 4px;
