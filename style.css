@@ -72,7 +72,7 @@ header .profile-image {
     transition: all .5s;
 }
 header .profile-image:hover{
-    transform: scale(1.3) rotate(1080deg)
+    transform: scale(1.3) rotate(30deg)
 }
 .tag {
     background-color: rgb(133, 89, 133);
@@ -80,7 +80,7 @@ header .profile-image:hover{
     padding: 10px;
     margin: 10px auto;
     display: table;
-    border-radius: 10px ;   
+    border-radius: 10px ;      
 }
 .location {
     background-color: rgb(78, 57, 78);
@@ -251,4 +251,36 @@ section:hover {
     border-color: rgb(78, 6, 69);
     color: rgb(65, 4, 65);
 }
- 
+ /* Hobbies Style*/
+ main ul li {
+    display: inline-block;
+ }
+
+a.book {
+    display: inline-block;
+    text-indent: -9999px;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+    opacity: 100%;
+    transition: all .5s;
+}
+a.one {
+    background-image: url(img/book1.PNG);
+    border-radius: 3px;
+    width: 80px;
+    height: 80px;
+}
+a.two {
+    background-image: url(img/book2.PNG);
+    border-radius: 3px;
+    width: 80px;
+    height: 80px;
+}
+a.three {
+    background-image: url(img/book3.PNG);
+    border-radius: 3px;
+    width: 80px;
+    height: 80px;
+}
