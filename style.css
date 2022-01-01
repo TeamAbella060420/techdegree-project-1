@@ -27,7 +27,8 @@ a:hover {
     padding: 10px;
     position: fixed;
     text-align: center; 
-    border-bottom: 1px solid rgb(144, 146, 243);   
+    border-bottom: 1px solid rgb(144, 146, 243); 
+    font-size: 20px;  
 }
 .nav {
     display: flex;
@@ -36,6 +37,7 @@ a:hover {
     list-style-type: none;
     margin: 0 auto;
     padding: 0;
+
 }
 .nav .name {
     display: flex;
@@ -200,4 +202,5 @@ a.social:hover {
     }
   
   }
+  
  
